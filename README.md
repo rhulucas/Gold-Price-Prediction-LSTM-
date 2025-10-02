@@ -9,9 +9,7 @@ Output: training loss curve + predicted vs. actual gold prices.
 
 Setup: python3 -m venv myenv, source myenv/bin/activate, pip install -r requirements.txt
     
-Run:
-    python train-predict-daily-gold-prices.py   # full training
-    python pre_test.py                          # sample demo
+Run: python train-predict-daily-gold-prices.py, python pre_test.py                          
     
 
 
