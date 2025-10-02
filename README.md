@@ -11,10 +11,11 @@ Setup:
     python3 -m venv myenv
     source myenv/bin/activate    # Mac/Linux
     pip install -r requirements.txt
-
+    
 Run:
     python train-predict-daily-gold-prices.py   # full training
     python pre_test.py                          # sample demo
+    
 
 
 
