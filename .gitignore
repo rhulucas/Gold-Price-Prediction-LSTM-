@@ -1,0 +1,15 @@
+myenv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+*.csv
+*.tsv
+*.parquet
+*.pt
+*.pth
+*.onnx
+.DS_Store
+.vscode/
+.idea/
