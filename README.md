@@ -7,10 +7,7 @@ Preprocessing: MinMax scaling, 60-day input windows.
 Model: LSTM with dropout, trained with Adam + MSE.
 Output: training loss curve + predicted vs. actual gold prices.
 
-Setup:
-    python3 -m venv myenv
-    source myenv/bin/activate    # Mac/Linux
-    pip install -r requirements.txt
+Setup: python3 -m venv myenv, source myenv/bin/activate, pip install -r requirements.txt
     
 Run:
     python train-predict-daily-gold-prices.py   # full training
